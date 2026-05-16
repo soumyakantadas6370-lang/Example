@@ -30,7 +30,6 @@
         #header nav{
             height: 100%;
             width: 50%;
-           
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -44,12 +43,12 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            gap:40px;
 
         }
         #main{
             height: 250px;
             width: 400px;
-            
             border: 5px solid rgb(62, 209, 62);
             display: flex;
             flex-direction: column;
@@ -65,34 +64,55 @@
             color: lightgreen;
 
         }
+
+        .links{
+            text-decoration: none;
+            color: white;
+            types: none;
+        }
         #button{
             height: 50px;
             width: 500px;
-           
             display: flex;
-            justify-content: space-around;
+            gap:40px;
             align-items: center;
+            justify-content: center;
         }
-        #button button{
+        /* #button button{
             font-size: 20px;
             padding: 2px;
            border-radius: 10px;
             color: blue;
             border: 2px solid black;
+        } */
+
+        .btn1{
+
+            border: 1px solid rgb(33, 32, 30);
+            padding: 10px 40px;
+            background: transparent ;
+        }
+
+        
+        .btn2{
+            display: flex;
+            padding: 10px 40px;
+            border: 1px solid red;
+            
         }
     </style>
 </head>
 <body>
     <header id="header">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Work </a>
-            <a href="#">Experience</a>
-            <a href="#">Skills</a>
-            <a href="#">Intereste</a>
-            <a href="#">Protfolio</a>
-            <a href="#">contact</a>
+            <a class="links" href="#">Home</a>
+            <a class="links" href="#">Profile</a>
+            <a class="links" href="#">Work </a>
+            <a class="links" href="#">Experience</a>
+            <a class="links" href="#">Skills</a>
+            <a class="links" href="#">Intereste</a>
+            <a class="links" href="#">Protfolio</a>
+            <a class="links" href="#">contact</a>
         </nav>
     </header>
     <section>
@@ -102,8 +122,8 @@
             <p>Web Developer</p>
     </div>
      <div id="button">
-            <button>DOWNLOAD CV</button>
-            <button>HIRE ME</button>
+            <button class="btn1">DOWNLOAD CV</button>
+            <button class="btn2">HIRE ME</button>
         </div>
     </section>
      

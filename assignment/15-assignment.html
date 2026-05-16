@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            height: 800px;
+            width: 100%;
+            border: 2px solid;
+            display: flex;
+            align-items: center;
+        }
+        #left-box{
+            height: 600px;
+            width: 35%;
+            margin-left: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid black; */
+        }
+        #right-box{
+            height: 600px;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:60px;
+            align-items: flex-start;   
+        }
+        .text-box{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 50px;   
+        }
+        h1{
+            font-size: 70px;
+        }
+        h2{
+            font-size: 25px;
+            /*margin-top: 30px;
+            margin-bottom: 100px;*/
+            color: red;
+        }
+        p{
+            font-size: 20px;
+            /* margin-left: 30px;
+            margin-bottom:auto; */
+        }
+        img{
+            border-radius: 15px;
+            height:500px;
+            width:400px;
+        }
+        .icon-box{
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        i{
+            font-size: 30px; 
+            margin-left: 40px;  
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="left-box">
+        <img src="PHOTO.JPG" alt="MY PICTURE" >
+    </div>
+    <div id="right-box">
+        <div class="text-box">
+            <h1>ABOUT ME!</h1>
+            <h2>SURYAKANTA DAS </h2>
+            <p>My name is Suryakanta Das. I am pursuing a B.Sc. in Information Technology Management (ITM) at Lashya Institute of Technology. My hobbies are playing games, listening to music, and learning new technologies. I also enjoy coding and exploring creative ideas related to web development and programming. I am a hardworking and enthusiastic person who always likes to learn new things and improve my skills.</p>
+        </div>
+        <div class="icon-box">
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-line"></i>
+            <i class="ri-twitter-line"></i>
+            <i class="ri-linkedin-box-line"></i>
+            <i class="ri-github-line"></i>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
